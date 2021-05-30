@@ -40,10 +40,6 @@ public class MainActivity extends AppCompatActivity {
   public void main() {
     String FILE_PATH = path + "info.txt";
 
-
-    ListNode node = new ListNode(1);
-
-
     try {
       File f = new File(FILE_PATH);
       ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(FILE_PATH));
